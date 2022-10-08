@@ -14,7 +14,7 @@ tracing = "0.1.29"
 tracing-subscriber = { version="0.3.3", features = ["env-filter"] }
 run_script = "^0.10.0"
 openssl = { version = "0.10", features = ["vendored"] }
-
+openssl-sys = "0.9"
 
 [[bin]]
 name = "sub"
