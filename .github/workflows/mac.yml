@@ -1,4 +1,4 @@
-name: Release For All
+name: Release For Mac
 on:
   repository_dispatch:
   workflow_dispatch:
