@@ -27,6 +27,10 @@ jobs:
         CFLAGS_armv7_unknown_linux_musleabihf: '-mfpu=vfpv3-d16'
     steps:
       - uses: actions/checkout@v2
+      - name: install prerequisites
+        run: |
+          sudo -E apt-get -qq update
+          sudo -E apt-get -qq install pkg-config libssl-dev
       - name: Build wheels - manylinux
         uses: messense/maturin-action@main
         with:
