@@ -1,4 +1,4 @@
-# 先在本一建立一个命令映射，假设路径为/root/cmds.json.格式如下：
+# 先在本地建立一个命令映射，假设路径为/root/cmds.json.格式如下：
 ```
 [{"name":"ls","cmd":"ls /root"},{"name":"test","cmd":"echo 'test'"},{"name":"delete","cmd":"rm -f /root/cmd.txt"}]
 ```
