@@ -6,7 +6,7 @@
 
 ```
 ./pub --topic 'XXXXXXXXXXXXX' --msg 'hello'
-./sub --topic 'XXXXXXXXXXXXX'
+./sub --topic 'XXXXXXXXXXXXX' --cmd '/root/cmds.json'
 ```
 ## pub发布端命令，需要设置msg信息即消息内容
 ```
